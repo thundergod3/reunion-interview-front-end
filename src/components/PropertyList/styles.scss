@@ -1,0 +1,24 @@
+.property-list-container {
+  margin-top: 32px;
+
+  .property-list-empty-container {
+    min-height: calc(100vh - 320px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 36px;
+      color: #01042a;
+      width: max-content;
+    }
+  }
+
+  .property-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+}

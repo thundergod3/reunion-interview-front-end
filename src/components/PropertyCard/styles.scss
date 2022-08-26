@@ -1,0 +1,91 @@
+.property-card-container {
+  background: #ffffff;
+  box-shadow: 0px 6px 8px #e5e8eb;
+  border-radius: 4px;
+
+  img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .property-card-bio-container {
+    margin-top: 8px;
+    padding: 16px;
+
+    .property-card-bio-header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .property-card-price {
+        font-size: 18px;
+        color: #594780;
+        font-weight: 700;
+
+        span {
+          color: #99a4ae;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+
+      .property-card-favorite-button {
+        border: solid 1px #c1b8d1;
+        border-radius: 100%;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
+        cursor: pointer;
+      }
+    }
+
+    .property-card-name {
+      font-weight: 700;
+      font-size: 24px;
+      color: #01042a;
+      width: max-content;
+      margin: 8px 0;
+    }
+
+    .property-card-location {
+      color: #99a4ae;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    hr {
+      margin: 8px 0;
+      height: 1px;
+      width: 100%;
+      background-color: #99a4ae;
+    }
+
+    .property-card-footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .property-card-footer-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+          color: #99a4ae;
+          font-size: 14px;
+          font-weight: 400;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  svg {
+    color: #594780;
+  }
+}

@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0px 6px 8px #e5e8eb;
+
+  .header-nav-item {
+    margin: 0 10px;
+    height: 40px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #01042a;
+    }
+  }
+
+  .header-nav-item-active {
+    background: #c1b8d1;
+
+    p {
+      color: #594780;
+    }
+  }
+}

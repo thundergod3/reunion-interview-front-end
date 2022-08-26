@@ -1,0 +1,18 @@
+.layout-container {
+  margin: auto;
+  width: 100%;
+  max-width: 960px;
+  margin-top: 120px;
+
+  .layout-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #01042a;
+    width: max-content;
+  }
+
+  &.layout-container-no-margin {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,16 @@
+.select-field {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-size: 14px;
+  color: #01042a;
+  margin: 8px 0;
+
+  &:focus,
+  &:focus-visible {
+    border: none;
+    outline: none;
+  }
+}

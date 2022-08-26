@@ -1,0 +1,26 @@
+.input-filed-none {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #01042a;
+  width: max-content;
+  height: 100%;
+  margin: 8px 0;
+
+  &:focus,
+  &:focus-visible {
+    border: none;
+    outline: none;
+  }
+}
+
+.input-filed-variant {
+  height: 100%;
+  width: max-content;
+  border: solid 1px #99a4ae;
+  outline: transparent solid 2px;
+  font-size: 14px;
+  color: #01042a;
+  padding: 8px 12px;
+  border-radius: 6px;
+}

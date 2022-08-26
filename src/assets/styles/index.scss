@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  -webkit-touch-callout: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Montserrat, sans-serif";
+}
+
+p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  src: url("../fonts/Montserrat-Black.ttf") format("truetype"),
+    url("../fonts/Montserrat-BlackItalic.ttf") format("truetype"),
+    url("../fonts/Montserrat-Bold.ttf") format("truetype"),
+    url("../fonts/Montserrat-BoldItalic.ttf") format("truetype"),
+    url("../fonts/Montserrat-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Montserrat-ExtraBoldItalic.ttf") format("truetype"),
+    url("../fonts/Montserrat-ExtraLight.ttf") format("truetype"),
+    url("../fonts/Montserrat-ExtraLightItalic.ttf") format("truetype"),
+    url("../fonts/Montserrat-Italic.ttf") format("truetype"),
+    url("../fonts/Montserrat-Light.ttf") format("truetype"),
+    url("../fonts/Montserrat-LightItalic.ttf") format("truetype"),
+    url("../fonts/Montserrat-Medium.ttf") format("truetype"),
+    url("../fonts/Montserrat-MediumItalic.ttf") format("truetype"),
+    url("../fonts/Montserrat-Regular.ttf") format("truetype"),
+    url("../fonts/Montserrat-SemiBold.ttf") format("truetype"),
+    url("../fonts/Montserrat-SemiBoldItalic.ttf") format("truetype"),
+    url("../fonts/Montserrat-Thin.ttf") format("truetype"),
+    url("../fonts/Montserrat-ThinItalic.ttf") format("truetype");
+}

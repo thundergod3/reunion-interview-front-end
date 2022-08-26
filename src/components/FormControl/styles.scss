@@ -1,0 +1,30 @@
+.form-control-container {
+  width: max-content;
+  min-width: 180px;
+  display: flex;
+  justify-content: space-between;
+
+  .form-control-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .form-control-label {
+      color: #99a4ae;
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+
+    .select-field {
+      margin-left: -4px;
+    }
+  }
+
+  .form-control-divider {
+    margin-left: 24px;
+    height: 100%;
+    width: 1px;
+    background-color: #99a4ae;
+  }
+}

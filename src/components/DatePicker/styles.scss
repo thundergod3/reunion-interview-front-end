@@ -1,0 +1,15 @@
+.date-picker {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #01042a;
+  width: max-content;
+  height: 100%;
+  margin: 8px 0;
+
+  &:focus,
+  &:focus-visible {
+    border: none;
+    outline: none;
+  }
+}
