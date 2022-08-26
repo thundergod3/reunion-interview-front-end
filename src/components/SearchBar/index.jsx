@@ -1,5 +1,4 @@
 import React, { useCallback, useState } from "react";
-import moment from "moment";
 
 import { useDispatch } from "react-redux";
 import PropertiesAction from "stores/redux/actions/PropertiesAction";
